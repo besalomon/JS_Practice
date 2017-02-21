@@ -38,7 +38,38 @@
       // array = ["cat", "dog", "snake"]
       // array.push("goat")
       // console.log(array)
-      
+      for (var i = 10; i>0; i--)
+      {
+        console.log(i);
+      }
+      console.log("BLASTOFF!");
+      var sum = 0, average = 0;
+      var numbers = [5, 23, 98, 234, 1, 0, 3, 177];
+      for (var i = 0; i < numbers.length; i++){
+        console.log(numbers[i]);
+        sum = sum + numbers[i];
+        average = sum/numbers.length;
+      }
+      console.log(sum);
+      console.log(average);
+
+      for (var i = 1; i <= 100; i++){
+        if (i%3 === 0 && i%5 === 0){
+          console.log("FIZZBUZZ");
+          i++;
+        }
+
+        if (i%3 === 0){
+          console.log("FIZZ");
+        }
+        else if(i%5 == 0){
+          console.log("BUZZ");
+        }
+        else{
+          console.log(i);
+
+          }
+      }
 
     </script>
   </html>
